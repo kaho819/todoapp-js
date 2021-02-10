@@ -22,3 +22,12 @@ body {
     border-style: none;
 }
 
+.todos li {
+    background: #f3ffe4;
+    border: none;
+}
+
+.delete {
+    cursor: pointer;
+    color: orange;
+}

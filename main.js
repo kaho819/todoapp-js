@@ -15,7 +15,9 @@ const createTask = task => {           // taskを作成
     const html = `
     <li class="list-group-item">
         <span>${task}</span>
-    </li>`;
+        <i class="delete"></i>
+    </li>
+    `;
 
     list.innerHTML += html;
 }
