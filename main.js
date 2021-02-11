@@ -14,6 +14,7 @@ const list = document.querySelector('.todos');
 const createTask = task => {           // taskを作成
     const html = `
     <li class="list-group-item">
+        <input type="checkbox">
         <span>${task}</span>
         <i class="delete"></i>
     </li>
